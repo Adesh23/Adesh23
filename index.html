@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--quiz start button-->
+  <div class="start_btn">
+    <button onclick="myFunction()"   d="start_button">Start Quiz</button>
+  </div>
+  
+  <!--Info Box-->
+  <div class="info_box" id="INFO">
+    <div class="info_title ">
+      <span>Some rules of this quiz</span>
+    </div>
+    <div class="info_list">
+      <div class="info">1. You will have only <span>15 seconds  </span>per question</div>
+      <div class="info">2. Once you have select the answer you can't reselect</div>
+      <div class="info">3. You can't select another answer once time goes off</div>
+      <div class="info">4. you can't exit from the quiz once you are time goes off</div>
+      <div class="info">5. You"ll get points on the basis of the correct answer</div>
+    </div>
+    <div class="buttons">
+      <button class="quit" id="qt" onclick="quit()">Quit</button>
+      <button class="restart" id="rs" onclick="cont()">Continue</button>
+    </div>
+    
+  </div>
+  <!--quiz box section -->
+  <div  id="shy" class="quiz_box" >
+    <header>
+      <div class="title">
+        Awsome quiz application
+        </div>
+        <div class="timer">
+          <div class="">
+            Time left
+          </div>
+          <div class="time_sec" id="sectimer">
+            15 
+          </div>
+        
+      </div>
+    <div class="time_line">
+        
+      </div>  
+    </header>
+     <section>
+       <div class="que_text">
+         <!--<span>What does HTML stands for?</span>-->
+       </div>
+       <div class="option_list">
+         <!-- <div class="option">
+           <span>Hyper text preprocessor</span>
+         </div>
+         <div class="option">
+           <span>Hyper text markup language </span>
+         </div>
+        <div class="option">
+        <span>Hyper text multiple launguge</span>
+      </div>
+      <div class="option">
+        <span>Hyper tool multi language</span>
+      </div>-->
+       </div>
+     </section>
+      <!--quiz box footer-->
+      <footer>
+        <div class="total_que" id="total_queDiv">
+          <!--<span><p>1</p>of<p>5</p>question</span>-->
+        </div>
+        <button class="nxt_btn" onclick="nxt()">Next que</button>
+      </footer>
+       
+  </div>  
+  <!--Result_box-->
+  <div class="result_box">
+    <div class="complete_text">
+      You've have completed the text
+    </div>
+    <div class="score_text">
+      <!--<span>You have got <p> 2</p> out of <p>5</p></span>-->
+    
+    </div>
+    <div class="buttons"> 
+      <button class="restart" onclick=restart()>Restart quiz</button>
+      <button class="quit"  onclick="quit_Quiz()">quit quiz</button>
+    </div>
+  </div>
+  
+
+
+  <script src="main.js"></script>
+  <script src="que.js"></script>
+</body>
+</html>
