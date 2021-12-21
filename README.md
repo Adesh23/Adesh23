@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @Adesh23
 - 👀 I’m interested in Web development
 - 🌱 I’m currently learning 
-- 💞️ I’m looking for an intern
-ship
+- 💞️ I’m looking for an internship
+
 - 📫 You can mail me at adesh.narnaware2013@gmail.com
 
 <!---
